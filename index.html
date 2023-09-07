@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Expence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex">
+        <form action="" onsubmit="handleSubmit(event)" class="flex" style="width: auto;">
+            <input type="date" id="input_date" required style="margin-top: 10px; width: 250px;">
+            <select name="Type" id="type" required style="margin-top: 10px; width: 250px;">
+                <option value="debit">debit</option>
+                <option value="credit">credit</option>
+            </select>
+            <input type="number" placeholder="Amount" required name="Amount" id="amount" style="margin-top: 10px; width: 250px;">
+            <input type="text" placeholder="Description" required name="Description" id="discription" style="margin-top: 10px; width: 250px;">
+            <input type="submit" style="margin-top: 10px; width: 250px;">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
