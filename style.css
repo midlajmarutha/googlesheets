@@ -12,3 +12,48 @@ body{
     align-items: center;
     justify-content: center;
 }
+.btn{
+    width: 100%;
+    border: none;
+    background-color: rgb(78, 78, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+}
+#input_date{
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-weight: bold;
+    height: 30px;
+}
+#type{
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-weight: bold;
+    height: 30px;
+}
+#amount{
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-weight: bold;
+    height: 30px;
+}
+#discription{
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-weight: bold;
+    height: 30px;
+}
